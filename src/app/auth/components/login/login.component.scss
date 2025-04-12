@@ -1,0 +1,26 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 80px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  
+    input, button {
+      margin: 10px 0;
+      padding: 8px;
+    }
+  
+    button {
+      background-color: #1976d2;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      background-color: #1565c0;
+    }
+  }
+  
