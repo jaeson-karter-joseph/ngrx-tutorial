@@ -7,34 +7,34 @@ export default {
   routes: [
   {
     "renderMode": 2,
-    "redirectTo": "/login",
-    "route": "/"
+    "redirectTo": "/humary-body/login",
+    "route": "/humary-body"
   },
   {
     "renderMode": 2,
-    "route": "/login"
+    "route": "/humary-body/login"
   },
   {
     "renderMode": 2,
-    "route": "/dashboard"
+    "route": "/humary-body/dashboard"
   },
   {
     "renderMode": 2,
-    "route": "/human"
+    "route": "/humary-body/human"
   },
   {
     "renderMode": 2,
-    "redirectTo": "/login",
-    "route": "/**"
+    "redirectTo": "/humary-body/login",
+    "route": "/humary-body/**"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 505, hash: 'e83a79703e87791ed9d8d68dae46549c624f9bcfad0a7304cd5f92b46a257047', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1018, hash: '4717b9fc29de595ca2e4983a40a10516e9b30d9a127c53d74f5a4c96cea968a2', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'login/index.html': {size: 5106, hash: '6bafdc72abab68349cb5bec0f09e19970f61009158b8857bb61909511637d03f', text: () => import('./assets-chunks/login_index_html.mjs').then(m => m.default)},
-    'dashboard/index.html': {size: 4624, hash: '945a1a9f063822499c18cdddfb812c9682b40557971621bbe945abdb57e39c79', text: () => import('./assets-chunks/dashboard_index_html.mjs').then(m => m.default)},
-    'human/index.html': {size: 31635, hash: 'c65da38c1255f835839dc43437f78c380cecf7ed519ec9a86d3d9d757210e0c4', text: () => import('./assets-chunks/human_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 516, hash: 'fbfa22c7b51b71a4f5d944d0ed63bd4d2743575ff5ef342e8568eb1a49993383', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1029, hash: 'cda6e9808c187af723ef30b5e92185c5056dfd53cacaef02175abc8989b1df98', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'humary-body/dashboard/index.html': {size: 4671, hash: '8f36f8833b8d9a36380db273d3abccc316d585ed94b67f71e58a2464d1bba6be', text: () => import('./assets-chunks/humary-body_dashboard_index_html.mjs').then(m => m.default)},
+    'humary-body/login/index.html': {size: 5153, hash: '8e1797ad7d971af4935be911a1652b6e56c24472356becad97299e5f449cbb29', text: () => import('./assets-chunks/humary-body_login_index_html.mjs').then(m => m.default)},
+    'humary-body/human/index.html': {size: 31682, hash: 'bdef15a8bbeb61c6bc3e53fafa4a718b206f86e7b4ff228863fd317aad798b74', text: () => import('./assets-chunks/humary-body_human_index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };
