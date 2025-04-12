@@ -1,8 +1,0 @@
-{
-  "routes": {
-    "/humary-body": {},
-    "/humary-body/dashboard": {},
-    "/humary-body/human": {},
-    "/humary-body/login": {}
-  }
-}

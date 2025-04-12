@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/ngrx-tutorial": {},
+    "/ngrx-tutorial/dashboard": {},
+    "/ngrx-tutorial/human": {},
+    "/ngrx-tutorial/login": {}
+  }
+}
