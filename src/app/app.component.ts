@@ -12,7 +12,14 @@ import { checkLoginStatus } from './auth/auth.actions';
 })
 export class AppComponent {
   title = 'ngrx-tutorial';
+  isNavOpen = false;
+
   constructor(private store: Store) {
     this.store.dispatch(checkLoginStatus());
+  }
+
+
+  toggleNav() {
+    this.isNavOpen = !this.isNavOpen;
   }
 }

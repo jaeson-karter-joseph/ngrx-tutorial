@@ -1,6 +1,10 @@
-<nav>
-  <a routerLink="/login">Login</a> |
-  <a routerLink="/dashboard">Dashboard</a>
+<button (click)="toggleNav()">&#9776;</button>
+<nav id="side-nav" [class.open]="isNavOpen">
+  <ul>
+    <li><a routerLink="login">Login</a></li>
+    <li><a routerLink="dashboard">Dashbaord</a></li>
+  </ul>
 </nav>
-<hr>
-<router-outlet></router-outlet>
+<div id="content">
+  <router-outlet />
+</div>
